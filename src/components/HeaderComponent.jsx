@@ -7,9 +7,7 @@ class HeaderComponent extends React.Component{
     
     render(){
         const userLoggedIn = AuthenticationService.isUserLoggedIn();
-        const user = AuthenticationService.getLoggedInUser();
-        //console.log(userLoggedIn)
-        return(            
+        return(
             <header>
                 <nav className="navbar navbar-expand-md navbar-dark bg-dark">
                     <ul className="navbar-nav ">

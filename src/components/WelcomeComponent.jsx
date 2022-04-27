@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import AuthenticationService from "../services/AuthenticationService";
 
 class WelcomeComponent extends React.Component {
